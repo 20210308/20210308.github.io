@@ -2,19 +2,66 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<title>김가은 첫 페이지</title>
+<title>김가은 첫화면</title>
 <style>
+*{padding: 0; margin: 0;}
+#page{margin: 0 auto; width: 1258px;  font-family:'맑은고딕'; color: #053277; }
+body{background-color: #d6f1feb3;}
+.clear{clear: both;}
+header{width: 1250px; height: 100px;margin-top: 30px;border: double 6px #6fadcf;
+ background-color: white;}
+
+h1{font-size: 15px; padding: 15px 0; text-align: center;}
+
+#title{text-align: center; padding: 32px 0; font-size: 30px; color: #053277;}
+span{background-color: #fefabc81;}
+
+aside{
+	width: 300px;
+	height: 705px;
+	float: left;
+	margin-top: 23px; 
+	border: solid 0px  #6fadcf; 
+}
+#A1{background-color:  #84adc4; border-top:  double 3px  #6fadcf; border-bottom:  double 3px #6fadcf; width: 300px; height: 347px; color: white; }
+#A2{background-color:  white; border-top: double 5px  #6fadcf; border-bottom: double 5px  #6fadcf; width: 300px; height: 338px; margin-top: 10px;}
+
+#S1{float: right;}
+nav{
+   width: 200px;
+  height: 705px;
+  margin-top: 21px; margin-left: 27px; margin-right: 5px;
+  border: double 0px #6fadcf; float: right;}
+.menu{border: double 4px white; background-color: #83B1C9; color: white; text-decoration: none;  width: 200px; padding: 35.2px 0; text-align: center; font-size: 18px;}
+.menu:link{border: double 4px #6fadcf; background-color: none; background-color: white; color: #2B7089; text-decoration: none;  width: 200px; padding: 36.5px 0; text-align: center; }
+.menu:visited{background-color: none; background-color: #6fadcf; color: white; text-decoration: none; }
+.menu:hover{ background-color: none; background-color: #6fadcf; color: white; text-decoration: none; }
+
+a:link{ color: white; text-decoration: none;}
+a:visited{ color: white; text-decoration: none; }
+a:hover{ color: white; text-decoration: none; }
+
+
+section{
+	width: 700px;
+	height: 705px;
+	margin-top: 21px;
+	border-top: double 4px  #6fadcf; border-bottom: double 4px  #6fadcf;
+	float: right;
+}
+
 table, tr, th, td{
-	border: solid 1px rgb(173, 155, 116);
+	border: solid 1px #6fadcf;
 	border-collapse: collapse;
 	text-align: center;
+	font-size: 12px;
 	}
 .text{color: rgba(76, 83, 80, 0.884);}
 td{color: white;}
 h3{ color:rgb(104, 92, 67);}
-table{width: 1000px;}
-table th{width: 130px;  color: rgba(76, 83, 80, 0.884);}
-th, td{ padding: 10px 0;}
+table{width: 700px; height: 705px; background-color:  white; }
+table ,th{  color: rgba(76, 83, 80, 0.884);}
+th, td{  width: 130px; padding: 16px 0;}
 p {font-size: large; line-height: 200%; font-weight: bold;}
 .a {background-color: none; background-color: rgb(221, 201, 114);}
 .a:hover{background-color: none; background-color: rgb(219, 115, 115);}
@@ -29,109 +76,183 @@ p {font-size: large; line-height: 200%; font-weight: bold;}
 #g {background-color: none; background-color:  rgb(224, 183, 93);}
 #g:hover{background-color: none; background-color: rgb(152, 119, 172);}
 
+footer{
+	width: 1258px;
+	height: 116px;
+	border: double 0px  #6fadcf; background-color: #698795ac;
+	margin-top: 23px; margin-bottom: 80px; color: white;
+}
+#impo{float: left;}
+#impo_1{float: left; padding: 13px 0; margin-left: 20px;}
+#impo_2{float: left; padding: 20px 0; margin-left: 10px;}
+
+#moto1{ font-size: 18px; margin-left: 30px; padding-top: 30px; padding-left: 10px;}
+#moto2{ list-style-type: none; line-height: 170%; padding-top: 13px;}
+li{text-decoration: underline 4px rgb(237, 144, 175);}
+h2{font-size: 20px;}
+h4{font-size: 30px;}
+h5{font-size: 20px; margin-top: 5px;}
+
+
 </style>
 </head>
+
 <body>
-<h3>디지털기술경영학과 김가은 2학년 1학기 시간표</h3>
-<table>
-	<tr>
-		<th></th>
-		<th>월</th>
-		<th>화</th>
-		<th>수</th>
-		<th>목</th>
-		<th>금</th>
-		<th>토</th>
-	</tr>
-	<tr>
-		<td class="text">0교시<br>08:30~09:20</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td class="a" >마케팅의이해(01)<br>(벤처교육관302)</td>
-	</tr>
-	<tr>
-		<td class="text">1교시<br>09:30~10:20</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text">2교시<br>10:30~11:20</td>
-		<td></td>
-		<td class="a" rowspan="2">마케팅의이해(01)<br>(벤처교육관302)</td>
-		<td></td>
-		<td class="b" rowspan="2">경영통계(01)<br>(1호관209)</td>
-		<td></td>
-		<td class="c">웹프로그래밍(01)<br>(1호관209)</td>
-	</tr>
-	<tr>
-		<td class="text">3교시<br>11:30~12:20</td>
-		<td></td>
-		<td class="d">대학영어<br>회화2(23)<br>(2호관305)</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text">4교시<br>12:30~13:20</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text">5교시<br>13:30~14:20</td>
-		<td></td>
-		<td class="c" rowspan="2">웹프로그래밍(01)<br>(1호관209)</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text">6교시<br>14:30~15:20</td>
-		<td></td>
-		<td class="b">경영통계(01)<br>(1호관209)</td>
-		<td></td>
-		<td></td>
-		<td class="d">대학영어<br>회화2(23)<br>(2호관305)</td>
-	</tr>
-	<tr>
-		<td class="text">7교시<br>15:30~16:20</td>
-		<td></td>
-		<td></td>
-		<td class="f" rowspan="2">문화와여행(1-07)<br>(벤처교육관308)</td>
-		<td id="g" rowspan="2">사진과시네마토<br>그래피(3-07)<br>(벤처교육관308)</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text">8교시<br>16:30~17:20</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td class="text"  colspan="7">충남학습e러닝-메가트렌드와미래디자인</td>
-	</tr>
-</table>
-<p>
-	<a href='회원가입.html'>[회원가입 페이지로 이동]</a> <br>
-	<a href='루바토펜션html_김가은.html'>[루바토 펜션 페이지로 이동]</a> <br>
-	<a href="행사안내 html.html">[행사 안내 페이지로 이동]</a> <br>
-	<a href="주말 야간 개장 안내html.html">[주말 야간 개장 안내 페이지로 이동]</a><br>
-	<a href="세일안내장.html">[세일 안내장으로 이동]</a><br>
-	<a href="월간일정표.html">[월간일정표로 이동]</a><br>
-	<a href="쇼핑몰 판매 목록.html">[쇼핑몰 판매 목록으로 이동]</a>
-</p>
+<div id="page">
+<header>
+	<div id="title"><span>G A E U N 'S _ W E B S I T E</span></div>
+	<div id="title_color"></div>
+</header>
+
+<div id="S2"> 
+<nav>
+	<div class="menu"><a href="회원가입.html">회원가입</a></div>
+	<div class="menu"><a href="루바토펜션html_김가은.html">루바토 펜션</a></div>
+	<div class="menu"><a href="행사안내 html.html">행사 안내</a></div>
+	<div class="menu"><a href="주말 야간 개장 안내html.html">주말 야간개장</a></div>
+	<div class="menu"><a href="세일안내장.html">세일 안내장</a></div>
+	<div class="menu"><a href="월간일정표.html">월간일정표</a></div>
+	<div class="menu"><a href="쇼핑몰 판매 목록.html">쇼핑몰판매목록</a></div>
+</nav>
+
+<section>
+	<a href="https://learn.hoseo.ac.kr/" target="_blank">
+	<table>
+		<tr>
+			<th></th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+			<th>토</th>
+		</tr>
+		<tr>
+			<td class="text">0교시<br>08:30~09:20</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="a" >마케팅의이해(01)<br>(벤처교육관302)</td>
+		</tr>
+		<tr>
+			<td class="text">1교시<br>09:30~10:20</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text">2교시<br>10:30~11:20</td>
+			<td></td>
+			<td class="a" rowspan="2">마케팅의이해(01)<br>(벤처교육관302)</td>
+			<td></td>
+			<td class="b" rowspan="2">경영통계(01)<br>(1호관209)</td>
+			<td></td>
+			<td class="c">웹프로그래밍(01)<br>(1호관209)</td>
+		</tr>
+		<tr>
+			<td class="text">3교시<br>11:30~12:20</td>
+			<td></td>
+			<td class="d">대학영어<br>회화2(23)<br>(2호관305)</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text">4교시<br>12:30~13:20</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text">5교시<br>13:30~14:20</td>
+			<td></td>
+			<td class="c" rowspan="2">웹프로그래밍(01)<br>(1호관209)</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text">6교시<br>14:30~15:20</td>
+			<td></td>
+			<td class="b">경영통계(01)<br>(1호관209)</td>
+			<td></td>
+			<td></td>
+			<td class="d">대학영어<br>회화2(23)<br>(2호관305)</td>
+		</tr>
+		<tr>
+			<td class="text">7교시<br>15:30~16:20</td>
+			<td></td>
+			<td></td>
+			<td class="f" rowspan="2">문화와여행(1-07)<br>(벤처교육관308)</td>
+			<td id="g" rowspan="2">사진과시네마토<br>그래피(3-07)<br>(벤처교육관308)</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text">8교시<br>16:30~17:20</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="text"  colspan="7">충남학습e러닝-메가트렌드와미래디자인</td>
+		</tr>
+	</table>
+    </a>
+</section>
+</div>  
+
+<aside>
+	<div id="A1">     
+		
+		<a href="프로필만들기_20210308김가은.html">
+		<img src="img/김가은프로필_사진.jpg" width="300px">
+		<h1>호서대 디지털기술경영학과 김가은</h1></a>
+	</div>
+	<div id="A2">
+		<div id="moto1">
+		<h2><span>여름방학 bucket list !</span></h2>
+		<form>
+		<ul id="moto2">
+			<li><input type="checkbox"> 바다보러 가기</li>
+			<li><input type="checkbox"> 제주도 가기</li>
+			<li><input type="checkbox"> 자격증 1개 이상 따기</li>
+			<li><input type="checkbox"> 다양한 봉사 해보기</li>
+			<li><input type="checkbox"> 다양한 단기알바 해보기</li>
+			<li><input type="checkbox"> 독서 최소 3권 이상 읽기</li>
+			<li><input type="checkbox"> 진로에 대해 고민하기</li>
+			<li><input type="checkbox"> 꾸준히 운동하기</li>
+		</ul>
+	    </form>
+	    </div>
+	</div>
+</aside>
+
+<div class="clear"></div>
+
+<footer id="impo">
+	<a href="http://www.hoseo.ac.kr/Home/Main.mbz" target="_blank">
+	<div id="impo_1">
+		<img src="img/호서대 로오고.png" width="100px">
+	</div>
+    </a>
+	<a href="https://portal.hoseo.edu/p/0000000027/" target="_blank">
+	<div id="impo_2">
+		<h4>Department of Digital Business</h4>
+		<h5>(천안캠퍼스 1호관 105호, TEL) 041-560-8348)</h5>
+	</div>
+    </a>
+</footer>
+</div>
 
 </body>
 </html>
